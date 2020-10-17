@@ -1,0 +1,33 @@
+{
+  "name": "grayl/mixin-common",
+  "description": "Common mixins used in the Grayl Framework",
+  "keywords": [
+    "grayl"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grogwood LLC",
+      "email": "dev@grogwood.com",
+      "homepage": "http://grogwood.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "~7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grayl\\Mixin\\Common\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Grayl\\Test\\Mixin\\Common\\": "tests/"
+    }
+  }
+}
